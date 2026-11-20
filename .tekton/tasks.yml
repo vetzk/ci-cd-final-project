@@ -81,7 +81,7 @@ spec:
       image: $(params.image)
       workingDir: $(workspaces.source.path)
       command:
-        - /bin/bash
+        - /bin/sh
         - -c
         - |
           set -e
